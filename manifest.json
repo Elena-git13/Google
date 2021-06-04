@@ -1,0 +1,32 @@
+{
+
+	"manifest_version" : 2,
+	"name" : "Do Exercises",
+	"short_name" : "DE",
+	"version" : "1.0",
+	"author" : "AEV",
+	"description" : "Charge every hour",
+
+	"icons" : {
+		"16" : "icons/16x16.png",
+		"32" : "icons/32x32.png",
+		"48" : "icons/48x48.png",
+		"128" : "icons/128x80.png"
+	},
+	
+	"permissions" : ["bookmarks", "notifications"],
+
+	"background" : {
+		"scripts" : ["background.js"],
+		"persistent" : false
+	},
+
+	"browser_action":{
+		"default_title" : "Do Exercises",
+		"default_icon" : "icons/48x48.png"
+
+	}
+}
+	
+	
+	
